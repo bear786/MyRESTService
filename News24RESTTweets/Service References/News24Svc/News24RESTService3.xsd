@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/MyRESTService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/MyRESTService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:9480/News24RESTService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System" />
+  <xs:complexType name="ArrayOfTweet">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Tweet" nillable="true" type="tns:Tweet" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTweet" nillable="true" type="tns:ArrayOfTweet" />
+  <xs:complexType name="Tweet">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System" minOccurs="0" name="CreatedAt" type="q1:DateTimeOffset" />
+      <xs:element minOccurs="0" name="Icon" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RelativeTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ScreenName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Tweet" nillable="true" type="tns:Tweet" />
+</xs:schema>

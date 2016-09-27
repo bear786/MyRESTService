@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c19aba43-8d7e-48a9-a6b5-b691d25b1fec" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9480/News24RESTService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="News24RESTService.xsd" MetadataType="Schema" ID="06ff1547-806f-4117-85a0-d912ac42de1b" SourceId="1" SourceUrl="http://localhost:9480/News24RESTService.svc?xsd=xsd1" />
+    <MetadataFile FileName="News24RESTService1.xsd" MetadataType="Schema" ID="d177210d-6456-41e4-874c-b311b8bdd04f" SourceId="1" SourceUrl="http://localhost:9480/News24RESTService.svc?xsd=xsd3" />
+    <MetadataFile FileName="News24RESTService2.xsd" MetadataType="Schema" ID="b7d9273f-e5c7-4f11-a6e4-1d6076021e5b" SourceId="1" SourceUrl="http://localhost:9480/News24RESTService.svc?xsd=xsd0" />
+    <MetadataFile FileName="News24RESTService.disco" MetadataType="Disco" ID="1049710f-6291-46f1-b40f-09598058a881" SourceId="1" SourceUrl="http://localhost:9480/News24RESTService.svc?disco" />
+    <MetadataFile FileName="News24RESTService.wsdl" MetadataType="Wsdl" ID="4f89c514-9bb9-479f-853d-91f7a40d2b78" SourceId="1" SourceUrl="http://localhost:9480/News24RESTService.svc?wsdl" />
+    <MetadataFile FileName="News24RESTService3.xsd" MetadataType="Schema" ID="79cc9a4e-888b-493a-9184-70aad59fd28a" SourceId="1" SourceUrl="http://localhost:9480/News24RESTService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
